@@ -17,16 +17,10 @@ streamlit run app.py
 streamlit run app.py --server.maxUploadSize=1028
 ```
 
-# Videos
-| **Original Video**  | **Segmented Video**  |
-|---------------------|-----------------------|
-| ![pic1](gifs/1.gif)  | ![pic1](gifs/segmented_1.gif)  |
-
-
 ### Running the Dockerized App
 1. Ensure you have Docker Installed and Setup in your OS (Windows/Mac/Linux). For detailed Instructions, please refer [this.](https://docs.docker.com/engine/install/)
 2. Navigate to the folder where you have cloned this repository ( where the ***Dockerfile*** is present ).
-3. Build the Docker Image (don't forget the dot!! :smile: ): 
+3. Build the Docker Image : 
 ```
 docker build -f Dockerfile -t app:latest .
 ```
